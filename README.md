@@ -1,1 +1,1 @@
-![website-page-design](website-page-design.gif)
+![website-page-design](web-page-design.gif)
