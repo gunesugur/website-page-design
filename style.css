@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    padding: 29px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #264653;
+}
+.nav{
+    display: flex;
+    flex-wrap:wrap;
+}
+.hm:link, .abt:link, .srvc:link{
+    text-decoration:none;
+}
+.hm:hover, .abt:hover, .srvc:hover{
+    color:gray;
+}
+.hm:visited, .abt:visited, .srvc:visited{
+    color:#E9C46A;
+}
+.hm:active, .abt:active, .srvc:active{
+    color:#2A9D8F;
+}
+.home, .about, .services{
+    padding:12px;
+    font-size:16px;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.line1{
+    border:1px solid #F4A261;
+    height:2px;
+}
+.neoweb{
+    color: #2A9D8F;
+    font-size:30px;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.web-design{
+    color: #FFF;
+    font-size:30px;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main-img{
+    background-image: url(./images/code-screen.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    height: 400px;
+    opacity: 0.8;
+    color:white;
+    padding:10%;
+}
+.imgtext{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#imgp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    line-height: 30px;
+    color: #E9C46A;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: #E76F51;
+
+}
+.journal-submitbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 33px;
+    background-color:#2A9D8F;
+    flex-wrap: wrap;
+}
+.inform{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22.5px;
+    color: #264653;
+    font-weight: 700;
+}
+.input{
+    padding: 8px;
+    padding-right:80px;
+    outline:none;
+}
+.submit-button{
+    padding: 10px;
+    outline: none;
+    border:none;
+    background-color:#E76F51;
+    color: #264653;
+    font-weight:bold;
+}
+.submit-button:hover{
+    background-color:#264653;
+    color: #E76F51;
+    cursor: pointer;
+}
+.information{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+    background-color:#FFF1E6;
+}
+.info{
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:22.5px;
+    padding-bottom:45px;
+}
+.img-adjustment{
+    width:100px;
+    padding-bottom:20px;
+}
+.html, .css, .design{
+    padding-right:5%;
+    padding-left:5%;
+}
+.info-title{
+    padding-bottom:20px;
+}
+.page-break{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    padding: 2%;
+}
+.page-break-logo{
+    width:15%;
+    height:auto;
+    margin-left:42.5%;
+}
+.main-about{
+    display:flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom:360px;
+    
+}
+.about-us-text{
+    padding-top:20px;
+    padding-right: 20px;
+}
+.what-we-do{
+    padding-top:20px;
+    padding-left:15px;
+    padding-bottom:15px;
+    padding-right: 20px;
+    margin-top:25px;
+    margin-right: 70px;
+    margin-bottom:80px;
+    background-color: #E76F51;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    line-height: 22.5px;
+}
+#text1{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    line-height: 22.5px;
+}
+#text2{
+    background-color: #E9C46A;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    line-height: 22.5px;
+}
+#services-title{
+    padding: 10px;
+}
+.services-flex-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    padding: 30px;
+}
+.one{
+    background-color:#E9C46A;
+}
+.two{
+    background-color:#F4A261;
+}
+.three{
+    background-color:#E76F51;
+}
+.services-text{
+    color:#264653;
+    padding: 10px;
+}
+.services-main-body{
+    display:flex;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+.bid{
+    padding: 20px;
+    margin: 20px;
+    background-color:#264653;
+
+}
+.bid-text{
+    color:#2A9D8F;
+    padding: 5px;
+}
+.bid-title{
+    padding-bottom: 15px;
+}
+.bid-info{
+    font-size:1rem;
+    font-family: Arial, helvetica, sans-serif;
+}
+#name, #email, #submit{
+    padding: 5px;
+}
+#text-area{
+    display: block;
+}
+.send-button{
+    padding: 10px;
+    margin-top:15px;
+    outline: none;
+    border:none;
+    background-color:#E76F51;
+    color: #264653;
+    font-weight:bold;
+}
+.send-button:hover{
+    background-color:#F4A261;
+    color: #264653;
+    cursor: pointer;
+}
